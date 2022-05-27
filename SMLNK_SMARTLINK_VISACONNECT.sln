@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DllLibs", "DllLibs", "{A44E3EF7-B7F9-48F8-A2D6-F2B8403AC46E}"
+	ProjectSection(SolutionItems) = preProject
+		DllLibs\ZUtil.dll = DllLibs\ZUtil.dll
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMLNK_SMARTLINK_VISACONNECT_API", "SMLNK_SMARTLINK_VISACONNECT_API\SMLNK_SMARTLINK_VISACONNECT_API.csproj", "{D2692909-538C-407B-8218-A7A8E8D0DF87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisaLib", "VisaLib\VisaLib.csproj", "{40576055-66DE-47DD-84AA-B6BA1945200F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2692909-538C-407B-8218-A7A8E8D0DF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2692909-538C-407B-8218-A7A8E8D0DF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2692909-538C-407B-8218-A7A8E8D0DF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2692909-538C-407B-8218-A7A8E8D0DF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40576055-66DE-47DD-84AA-B6BA1945200F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40576055-66DE-47DD-84AA-B6BA1945200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40576055-66DE-47DD-84AA-B6BA1945200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40576055-66DE-47DD-84AA-B6BA1945200F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05820889-8763-44BC-9D04-2A19E94C8D3B}
+	EndGlobalSection
+EndGlobal
